@@ -1,0 +1,86 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNq2wNXDc6T/vZyGioEgI5K",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/GabrielRychard/GabrielDomain/blob/main/Atividade%20de%20Programa%C3%A7%C3%A3o\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 0
+        },
+        "id": "v2keetMaOIHg",
+        "outputId": "92552758-f8a4-4045-ed22-d87bae774962"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Qual é o seu nome? gioavanna\n",
+            "Qual é a sua idade? 18\n",
+            "Qual é a cidade que você mora? jundiai\n",
+            "\n",
+            "O seu nome é gioavanna, você tem 18 anos e a cidade onde você mora é jundiai\n"
+          ]
+        }
+      ],
+      "source": [
+        "nome = str(input(\"Qual é o seu nome? \"))\n",
+        "idade = int(input(\"Qual é a sua idade? \"))\n",
+        "cidade = str(input(\"Qual é a cidade que você mora? \"))\n",
+        "# qual é o nome a idade e a cidade do usuário\n",
+        "\n",
+        "print(f\"\\nO seu nome é {nome}, você tem {idade} anos e a cidade onde você mora é {cidade}\")\n",
+        "# printando as informações do usuário"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = int(input(\"Digite um número: \"))\n",
+        "y = int(input(\"Digite outro número: \"))\n",
+        "# Pede para o usuário 2 números\n",
+        "\n",
+        "soma = x + y\n",
+        "multi = x * y\n",
+        "divisao = x / y\n",
+        "divisao inteira = x // y\n",
+        "exponenciacao = x ** y\n",
+        "# Soma, Multiplicação, Divisão, Divisão Inteira e Exponenciação\n",
+        "\n",
+        "print(f\"\\nA soma entre os números é de {soma}, a multiplicação é de {multi}, a divisão é de {divisao}, a divisão inteira é de {divisao inteira}, e a exponenciação é de {exponenciacao}\")"
+      ],
+      "metadata": {
+        "id": "1WOJrskuQF-F"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
